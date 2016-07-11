@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "webpack --config ./webpack-production.config.js",
+    "dev": "webpack-dev-server --config ./webpack.config.js --content-base dist/ --inline --progress",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
